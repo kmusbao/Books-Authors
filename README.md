@@ -1,2 +1,2 @@
 # Books-Authors
-Small protected service
+A little protected service
