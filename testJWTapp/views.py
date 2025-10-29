@@ -13,7 +13,6 @@ from rest_framework.response import Response
 from django.contrib.auth.password_validation import validate_password
 
 from .authentication import JWTAuthentication
-from .decorators import protected_decorator
 from .models import User
 
 from .serializers import UserSerializer, BookSerializer, LoginSerializer, UserDetailsSerializer
